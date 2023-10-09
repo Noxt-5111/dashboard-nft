@@ -1,0 +1,75 @@
+@media (max-width: 769px) {
+    nav{
+        padding: 15px;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .barra{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px
+    }
+    a{
+        font-size: 21px;
+    }
+    a.navegacao:hover{
+        padding: 4px;
+        font-size: 17px;
+    }
+
+
+    main > h1{
+        font-size: 58px;
+    }
+    .txt-central > h4{
+        font-size: 15px;
+    }
+    .botao-central > button{
+        margin-bottom: 55px;
+        font-size: 13px;
+        max-width: 115px;
+        max-height: 39px;
+    }
+    .quadradao{
+        max-width: 114.4px;
+        max-height: 114.4px;
+    }
+}
+
+@media (max-width: 425px) {
+    nav{
+        padding: 15px;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .barra{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px
+    }
+    a{
+        font-size: 21px;
+    }
+    a.navegacao:hover{
+        padding: 4px;
+        font-size: 17px;
+    }
+
+
+    main > h1{
+        font-size: 55px;
+    }
+    .txt-central > h4{
+        font-size: 14px;
+    }
+    .botao-central > button{
+        margin-bottom: 55px;
+        font-size: 12px;
+        max-width: 110px;
+        max-height: 34px;
+    }
+    .quadradao{
+        max-width: 114.4px;
+        max-height: 114.4px;
+    }
+}
