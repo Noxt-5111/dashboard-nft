@@ -1,4 +1,7 @@
 @media (max-width: 769px) {
+    body{
+        height: 103vh;
+    }
     nav{
         padding: 15px;
         flex-direction: column;
@@ -17,9 +20,12 @@
         font-size: 17px;
     }
 
+    main{
+        margin-top: 85px;
+    }
 
     main > h1{
-        font-size: 58px;
+        font-size: 45px;
     }
     .txt-central > h4{
         font-size: 15px;
@@ -34,9 +40,15 @@
         max-width: 114.4px;
         max-height: 114.4px;
     }
+    #N-Bueno{
+        margin-top: 7.7px;
+    }
 }
 
 @media (max-width: 425px) {
+    body{
+        height: 103vh;
+    }
     nav{
         padding: 15px;
         flex-direction: column;
@@ -55,21 +67,27 @@
         font-size: 17px;
     }
 
+    main{
+        margin-top: 85px;
+    }
 
     main > h1{
-        font-size: 55px;
+        font-size: 45px;
     }
     .txt-central > h4{
-        font-size: 14px;
+        font-size: 15px;
     }
     .botao-central > button{
         margin-bottom: 55px;
-        font-size: 12px;
-        max-width: 110px;
-        max-height: 34px;
+        font-size: 13px;
+        max-width: 115px;
+        max-height: 39px;
     }
     .quadradao{
         max-width: 114.4px;
         max-height: 114.4px;
+    }
+    #N-Bueno{
+        margin-top: 7.7px;
     }
 }
